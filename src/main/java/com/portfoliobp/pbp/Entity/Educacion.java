@@ -14,6 +14,7 @@ public class Educacion {
     private String nombreE;
     private String descripcionE;
 
+    //constructor
     public Educacion() {
     }
 
@@ -22,6 +23,7 @@ public class Educacion {
         this.descripcionE = descripcionE;
     }
 
+    //geseters
     public int getId() {
         return id;
     }
