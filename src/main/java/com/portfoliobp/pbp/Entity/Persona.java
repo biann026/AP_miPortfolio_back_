@@ -21,23 +21,28 @@ public class Persona {
     @Size(min = 1, max = 50, message = "Debe tener entre 1 y 50 caracteres.")
     private String apellido;
     
+    @NotNull 
+    @Size(min = 1, max = 50, message = "Debe tener entre 1 y 50 caracteres.")
+    private String titulo;
+    
+    @NotNull 
+    @Size(min = 1, max = 300, message = "Debe tener entre 1 y 300 caracteres.")
+    private String descripcion;
+    
     
     private String img;
     
-    @NotNull
-    @Size(min = 1, max = 300, message ="Debe tener entre 1 y 300 caracteres.")
-    private String descripcion;
+    //constructores
 
-   //constructores
-   
     public Persona() {
     }
 
-    public Persona(String nombre, String apellido, String img, String descripcion) {
+    public Persona(String nombre, String apellido, String titulo, String descripcion, String img) {
         this.nombre = nombre;
         this.apellido = apellido;
-        this.img = img;
+        this.titulo = titulo;
         this.descripcion = descripcion;
+        this.img = img;
     }
     
     //geseters
@@ -66,12 +71,12 @@ public class Persona {
         this.apellido = apellido;
     }
 
-    public String getImg() {
-        return img;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setImg(String img) {
-        this.img = img;
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
     public String getDescripcion() {
@@ -81,5 +86,12 @@ public class Persona {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-    
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
 }

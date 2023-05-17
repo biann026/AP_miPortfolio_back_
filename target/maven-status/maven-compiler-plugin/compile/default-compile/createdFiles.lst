@@ -8,7 +8,6 @@ com\portfoliobp\pbp\Service\ImpPersonaService.class
 com\portfoliobp\pbp\Service\Shys.class
 com\portfoliobp\pbp\Repository\IPersonaRepository.class
 com\portfoliobp\pbp\Controller\CEducacion.class
-com\portfoliobp\pbp\Interface\IPersonaService.class
 com\portfoliobp\pbp\Security\Service\UsuarioService.class
 com\portfoliobp\pbp\Repository\RExperiencia.class
 com\portfoliobp\pbp\Dto\dtoHys.class

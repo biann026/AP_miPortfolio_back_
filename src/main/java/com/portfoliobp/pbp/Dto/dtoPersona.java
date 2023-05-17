@@ -1,27 +1,36 @@
 package com.portfoliobp.pbp.Dto;
 
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 
 public class dtoPersona {
     @NotBlank
     private String nombre;
     @NotBlank
-    private String apellido;
+    private String apellido; 
+    @NotBlank
+    private String titulo;
     @NotBlank
     private String descripcion;
     @NotBlank
-    private String img;
+    private String img;  
+    
+    //constructor
 
     public dtoPersona() {
     }
 
-    public dtoPersona(String nombre, String apellido, String descripcion, String img) {
+    public dtoPersona(String nombre, String apellido, String titulo, String descripcion, String img) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.titulo = titulo;
         this.descripcion = descripcion;
         this.img = img;
     }
+    
+    
+    //geseters
 
     public String getNombre() {
         return nombre;
@@ -37,6 +46,14 @@ public class dtoPersona {
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
     public String getDescripcion() {
@@ -55,5 +72,5 @@ public class dtoPersona {
         this.img = img;
     }
     
-    
 }
+
