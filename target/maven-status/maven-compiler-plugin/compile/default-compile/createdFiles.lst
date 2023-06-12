@@ -1,3 +1,5 @@
+com\portfoliobp\pbp\Service\SProyectos.class
+com\portfoliobp\pbp\Repository\RProyectos.class
 com\portfoliobp\pbp\Security\MainSecurity.class
 com\portfoliobp\pbp\Controller\CHys.class
 com\portfoliobp\pbp\Entity\Persona.class
@@ -14,6 +16,7 @@ com\portfoliobp\pbp\Dto\dtoHys.class
 com\portfoliobp\pbp\Dto\dtoEducacion.class
 com\portfoliobp\pbp\Security\Controller\Mensaje.class
 com\portfoliobp\pbp\Entity\Educacion.class
+com\portfoliobp\pbp\Controller\CProyectos.class
 com\portfoliobp\pbp\Security\jwt\JwtTokenFilter.class
 com\portfoliobp\pbp\Controller\CExperiencia.class
 com\portfoliobp\pbp\Entity\Experiencia.class
@@ -21,8 +24,10 @@ com\portfoliobp\pbp\Security\jwt\JwtEntryPoint.class
 com\portfoliobp\pbp\Entity\hys.class
 com\portfoliobp\pbp\Security\Entity\Usuario.class
 com\portfoliobp\pbp\Security\jwt\JwtProvider.class
+com\portfoliobp\pbp\Entity\Proyectos.class
 com\portfoliobp\pbp\Security\Dto\LoginUsuario.class
 com\portfoliobp\pbp\Security\Entity\UsuarioPrincipal.class
+com\portfoliobp\pbp\Dto\dtoProyectos.class
 com\portfoliobp\pbp\Security\Dto\JwtDto.class
 com\portfoliobp\pbp\Security\Service\RolService.class
 com\portfoliobp\pbp\PbpApplication.class

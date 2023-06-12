@@ -20,6 +20,8 @@ C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portf
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Controller\CExperiencia.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Repository\RExperiencia.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Security\Entity\Usuario.java
+C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Repository\RProyectos.java
+C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Dto\dtoProyectos.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Security\Entity\Rol.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Security\Entity\UsuarioPrincipal.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Security\Controller\Mensaje.java
@@ -31,9 +33,12 @@ C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portf
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Controller\CHys.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Dto\dtoHys.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Entity\Educacion.java
+C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Controller\CProyectos.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Dto\DtoExperiencia.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Service\ImpPersonaService.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Security\Dto\JwtDto.java
+C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Service\SProyectos.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Service\Seducacion.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Entity\Persona.java
 C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Repository\Rhys.java
+C:\Users\Bianca\Desktop\MiPortfolio\AP_miPortfolio_back_\src\main\java\com\portfoliobp\pbp\Entity\Proyectos.java
